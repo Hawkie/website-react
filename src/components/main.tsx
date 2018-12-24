@@ -7,7 +7,7 @@ import Products from "./products";
 import Projects from "./projects";
 
 export class Main extends Component {
-  public render() {
+  public render(): React.ReactNode {
     return (
         <HashRouter>
         <div>

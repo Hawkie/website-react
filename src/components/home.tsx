@@ -2,7 +2,7 @@ import * as React from "react";
 import { Component } from "react";
 
 class Home extends Component {
-  public render() {
+  public render(): React.ReactNode {
     return (
       <div>
         <h2>HELLO</h2>

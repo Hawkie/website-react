@@ -2,7 +2,7 @@ import * as React from "react";
 import { Component } from "react";
 
 export class Products extends Component {
-  public render() {
+  public render(): React.ReactNode {
     return (
       <div>
         <h2>Products Built</h2>

@@ -11,11 +11,11 @@ interface IState {
 
 export class HelloComponent extends Component<IProps, IState> {
 
-  constructor(props) {
+  constructor(props: IProps) {
     super(props);
   }
 
-public render() {
+public render(): React.ReactNode {
   return (
       <div>{this.props.myText}</div>
     );
