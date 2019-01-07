@@ -11,7 +11,7 @@ export class Interests extends Component {
             <li>2018: Built Mountain Bike from components</li>
             <li>2017: Built and hosted html5 web games: asteroids and lander. (Typescript, html 5, Canvas).</li>
             <li>2014: Qualified as Bridge Master one star on <a href="https://www.bridgeclublive.com/">
-            www.bridgeclublive.com</a></li>
+            http://www.bridgeclublive.com</a></li>
             <li>2012: Volunteered to teach year six pupils over ten weeks;&nbsp;
                 The power of programming on the Raspberry Pi (at Kobi Nazrul School London)</li>
             <li>2011: Automatic Bridge Report Generator (C#)</li>

@@ -5,10 +5,11 @@ import { ProductComponent } from "./ProductComponent";
 export class Products extends Component {
   public render(): React.ReactNode {
     return (
+      <div>
+      <h2>Products Built</h2>
+      <p>My development projects:</p>
       <div className="products">
-        <h2>Products Built</h2>
-        <p>My development projects:</p>
-        <ul><ProductComponent
+        <ProductComponent
           date="2019"
           title="AJH Gallery"
           description="Website for displaying art and crafts online"
@@ -37,7 +38,6 @@ export class Products extends Component {
             link="https://hawkie123.itch.io/space-command"
             codelink="http://github.com/hawkie/weblib">
           </ProductComponent>
-
           <ProductComponent
             date="2008"
             title="Suduko and samari solver"
@@ -48,7 +48,7 @@ export class Products extends Component {
             link="http://github.com/hawkie/solver"
             codelink="http://github.com/hawkie/solver">
             </ProductComponent>
-        </ul>
+      </div>
       </div>
     );
   }

@@ -26,7 +26,7 @@ public render(): React.ReactNode {
         <p>Tech: {this.props.technology}</p>
         <p>
         <a href={this.props.link}>
-          <img src={this.props.screenshotUrl} height="200px"></img>
+          <img src={this.props.screenshotUrl}></img>
           <p>Link: {this.props.link}</p>
         </a>
         </p>
