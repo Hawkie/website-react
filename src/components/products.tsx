@@ -5,12 +5,12 @@ import { ProductComponent } from "./ProductComponent";
 export class Products extends Component {
   public render(): React.ReactNode {
     return (
-      <div>
+      <div className="products">
         <h2>Products Built</h2>
         <p>My development projects:</p>
         <ul><ProductComponent
           date="2019"
-          title="Website for AJH Gallery"
+          title="AJH Gallery website"
           description="Website for displaying art and crafts online"
           technology="React, Typescript, MongoDB"
           screenshotUrl="/res/img/ajh-gallery-paintings.png"

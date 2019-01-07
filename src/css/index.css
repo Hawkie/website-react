@@ -23,27 +23,32 @@ body {
     display: inline-block;
   }
 
-.product {
-  padding: 0;
+  .products ul {
+    padding: 0;
+    font-size: 12px;
+    margin: 0;
+  }
+
+.products h5 {
+  padding-top: 20px;
 }
 
-.product p {
-  font-size: 10px;
+.products p {
+  font-size: 12px;
   margin: 0;
 }
 
 .training {
-  padding: 0;
+  padding: 0px;
 }
 
-.training p {
+.training h5 {
+  padding-top: 20px;
+}
+
+.training li {
   font-size: 12px;
   margin: 0;
-}
-.training li {
-  font-size: 10px;
-  margin: 0;
-  padding: 0;
 }
 
   .active {
