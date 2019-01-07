@@ -11,3 +11,6 @@ Stripe https://stripe.com/docs/api
 
 
 Mongo (not needed?) https://medium.com/javascript-in-plain-english/full-stack-mongodb-react-node-js-express-js-in-one-simple-app-6cc8ed6de274
+
+react router
+https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writting-manually

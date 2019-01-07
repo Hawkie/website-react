@@ -8,8 +8,8 @@ class Home extends Component {
         <h2>Overview</h2>
         <p>Welcome to Paul Hawkins' profile website.</p>
         <h5>Mission</h5>
-        <p>The aim of this website is not only to demonstrate my projects
-          and practice technology for fun, but also to share my interests and views with other parties
+        <p>The aim of this website is not only to demonstrate technology
+          and practice it for fun, but also to share my interests and views with other parties
           who may learn from it and promote discussion for mutual benefit.</p>
           <p>This web page itself is built on react and is being hosted for free by the fabulous&nbsp;
             <a href="http://www.netlify.com">Netlify team</a> who have the perfect setup
