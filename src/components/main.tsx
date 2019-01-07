@@ -3,6 +3,7 @@ import { Component } from "react";
 import { BrowserRouter, NavLink, Route } from "react-router-dom";
 import Contact from "./contact";
 import Home from "./home";
+import Interests from "./Interests";
 import Products from "./products";
 import TrainingLog from "./TrainingLog";
 
@@ -16,12 +17,14 @@ export class Main extends Component {
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/products">Products</NavLink></li>
             <li><NavLink to="/training">Training Log</NavLink></li>
+            <li><NavLink to="/interests">Interests</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <div className="content">
           <Route exact path="/" component={Home}/>
             <Route path="/products" component={Products}/>
             <Route path="/training" component={TrainingLog}/>
+            <Route path="/interests" component={Interests}/>
             <Route path="/contact" component={Contact}/>
           </div>
         </div>

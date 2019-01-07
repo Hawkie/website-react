@@ -4,8 +4,9 @@ import { Component } from "react";
 export class TrainingLog extends Component {
   public render(): React.ReactNode {
     return (
-      <div className="training">
+      <div className="blog">
         <h2>Training Log</h2>
+        <p>A grouped and chronological list of my training history</p>
           <h5>Management</h5>
           <ul>
           <li>2017: Leadership Training – Ross McEwan’s RBS Determined to Lead.</li>
@@ -15,7 +16,7 @@ export class TrainingLog extends Component {
           <h5>Analysis:</h5>
           <ul>
           <li>2015: RBS Business Analysis / Requirement Documentation (Gap Analysis)</li>
-          <li>2015: RBS Business Process Modelling (UPN, BPMN)</li>
+          <li>2015: RBS Business Process Modelling (<a href="https://elements.cloud/2016/06/01/upn/">UPN</a>, BPMN)</li>
           <li>2015: RBS Internal - Quantifying Process Models</li>
           </ul>
           <h5>Business:</h5>

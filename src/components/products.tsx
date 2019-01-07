@@ -10,7 +10,7 @@ export class Products extends Component {
         <p>My development projects:</p>
         <ul><ProductComponent
           date="2019"
-          title="AJH Gallery website"
+          title="AJH Gallery"
           description="Website for displaying art and crafts online"
           technology="React, Typescript, MongoDB"
           screenshotUrl="/res/img/ajh-gallery-paintings.png"
@@ -19,33 +19,33 @@ export class Products extends Component {
           ></ProductComponent>
           <ProductComponent
           date="2018"
-          title="AirRider Web Game for Code Jam"
-          description="Web game using own typescript framework.
-          Hosted in Nov 2018 itch.io for programming jam (Ludum Dare 43)"
-          technology="Typescript"
+          title="Air Rider"
+          description="Web game for programming jam (Ludum Dare 43) using own typescript framework.
+          Hosted on itch.io in Nov 2018"
+          technology="Typescript, Html5 canvas"
           screenshotUrl="/res/img/AirRider-menu.png"
           link="http://hawkie123.itch.io/air-rider"
           codelink="http://github.com/hawkie/ludumdare43">
           </ProductComponent>
           <ProductComponent
             date="2017"
-            title="Space Command Web Game"
-            description="Web game using own typescript framework
-            Hosted in Oct 2018 "
-            technology="Typescript"
+            title="Space Command"
+            description="Web game project using own typescript framework.&nbsp;
+            Hosted on Hostinger in Feb 2018"
+            technology="Typescript, Html5 canvas"
             screenshotUrl="/res/img/SpaceCommand-Asteroids.png"
-            link="http://spacecommand.000webhostapp.com/"
-            codelink="http://github.com/hawkie/spacecommand">
+            link="https://hawkie123.itch.io/space-command"
+            codelink="http://github.com/hawkie/weblib">
           </ProductComponent>
 
           <ProductComponent
             date="2008"
-            title="Suduko and Samari Solver desktop application"
-            description="Desktop Solver application using general framework for solving logic,
-            logical puzzles using elimination and deduction rules."
+            title="Suduko and samari solver"
+            description="Desktop application and general logic rule framework for solving logical&nbsp;
+            puzzles using elimination and deduction rules. Download and build in visual studio."
             technology="C# and WPF"
             screenshotUrl="/res/img/Solver-fiendishPuzzleSolved.png"
-            link=""
+            link="http://github.com/hawkie/solver"
             codelink="http://github.com/hawkie/solver">
             </ProductComponent>
         </ul>
